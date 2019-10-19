@@ -1,0 +1,41 @@
+<html>
+<head>
+<title> signup DOOD</title>
+</head>
+<body  bgcolor="grey" >
+
+<div align="center">
+
+<form id="success" >
+
+<h1>SIGNUP</h1>
+<script>
+function SUBMIT(){
+    document.getElementById("success").innerHTML="SUCCESSFULLY SIGNED UP";
+}</script>
+
+<img src="download.png" height="80px" align="center"/>
+
+<h2 >USERNAME</h2>
+
+<input type="text" placeholder="enter username" name="username" height="80px"  id="username"/><br>
+
+<h2>EMAIL-ID</h2>
+
+<input type="email" placeholder="enter email-id" name="email id" /><br>
+
+<h2 id="passtitle">PASSWORD</h2>
+
+<h1><input type="password" placeholder="enter password" name="password"  maxlength="8"/><br></h1>
+
+<button  type="button" onclick="SUBMIT"> SUBMIT</button>
+
+</form>
+
+</div>
+
+
+
+
+</body>
+</html>
