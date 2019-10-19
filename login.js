@@ -9,7 +9,7 @@ function SUBMIT(){
    if (username=="saketh"){
       if( emailid=="saketh@gmail.com"){
            if(password=="sakethkohli"){
-               result="SUCCESSFULLY LOGGED IN AT";
+               result="SUCCESSFULLY LOGGED IN AT NOW";
            }
            else{
             result="TRY AGAIN";
