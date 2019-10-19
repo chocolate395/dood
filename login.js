@@ -9,7 +9,7 @@ function SUBMIT(){
    if (username=="saketh"){
       if( emailid=="saketh@gmail.com"){
            if(password=="sakethkohli"){
-               result="SUCCESSFULLY LOGGED IN AT NOW";
+               result="SUCCESSFULLY LOGGED IN AT "+d;
            }
            else{
             result="TRY AGAIN";
@@ -26,9 +26,9 @@ function SUBMIT(){
         result="TRY AGAIN";
     }
 document.getElementById("success").innerHTML=result;
-if(result=="SUCCESSFULLY LOGGED IN AT"){
-    GET=document.getElementById("p").innerHTML=d;
-}
+// if(result=="SUCCESSFULLY LOGGED IN AT"){
+//     GET=document.getElementById("p").innerHTML=d;
+// }
 
 
 }
